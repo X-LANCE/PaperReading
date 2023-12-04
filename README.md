@@ -1,7 +1,7 @@
 # 各研究方向经典论文
 ## ASR
 - E2E based ASR
-    
+  
     CTC: https://www.cs.toronto.edu/~graves/icml_2006.pdf
     
     Attention based ASR: https://arxiv.org/pdf/1508.01211.pdf
@@ -23,11 +23,11 @@
     Transducer in Espnet: https://arxiv.org/pdf/2201.05420.pdf
     
 - Review
-    
+  
     E2E review:  https://arxiv.org/abs/2111.01690
     
 - Streaming LAS
-    
+  
     Trigger Attention: https://www.merl.com/publications/docs/TR2019-015.pdf
     
     Online and Linear-Time Attention by Enforcing Monotonic Alignments: https://arxiv.org/abs/1704.00784
@@ -37,11 +37,11 @@
     Monotonic Infinite Lookback Attention for Simultaneous Machine Translation”: https://arxiv.org/abs/1906.05218
     
 - Latency optimization
-    
+  
     Fastemit:  https://arxiv.org/abs/2010.11148
     
 - AM/LM Adaptation
-    
+  
     Density Ratio: https://arxiv.org/abs/2002.11268  → HAT; ILMT; ILME
     
     Fast adapt: https://arxiv.org/abs/2104.11127
@@ -104,5 +104,42 @@
      CIF-based Collaborative Decoding for End-to-end Contextual Speech Recognition: https://arxiv.org/abs/2012.09466
         
      Tree-constrained Pointer Generator for End-to-end Contextual Speech Recognition: https://arxiv.org/abs/2109.00627
-        
+    
 - MOE
+
+## TTS
+
+* Review
+
+  A Survey on Neural Speech Synthesis: https://arxiv.org/pdf/2106.15561.pdf
+
+* Spectrogram-based TTS
+
+  \[Tacotron2\] Natural tts synthesis by conditioning wavenet on mel spectrogram predictions: https://arxiv.org/pdf/1712.05884.pdf
+  
+  Fastspeech 2: Fast and high-quality end-to-end text to speech: https://arxiv.org/pdf/2006.04558.pdf
+  
+  Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search: https://proceedings.neurips.cc/paper/2020/file/5c3b99e8f92532e5ad1556e53ceea00c-Paper.pdf
+  
+  Grad-TTS: A Diffusion Probabilistic Model for Text-to-Speech: http://proceedings.mlr.press/v139/popov21a/popov21a.pdf
+  
+* End-to-end TTS
+
+  \[VITS\] Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech: http://proceedings.mlr.press/v139/kim21f/kim21f.pdf
+  
+  NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers: https://arxiv.org/pdf/2304.09116.pdf
+  
+* VQ-based and GPT-based TTS
+
+  VQTTS: High-Fidelity Text-to-Speech Synthesis with Self-Supervised VQ Acoustic Feature: https://arxiv.org/pdf/2204.00768.pdf
+  
+  \[VALLE\] Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers: https://arxiv.org/pdf/2301.02111.pdf
+
+* Vocoder
+
+  MelGAN: Generative Adversarial Networks for Conditional Waveform Synthesis: https://proceedings.neurips.cc/paper/2019/file/6804c9bca0a615bdb9374d00a9fcba59-Paper.pdf
+  
+  HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis: https://proceedings.neurips.cc/paper/2020/file/c5d736809766d46260d816d8dbc9eb44-Paper.pdf
+  
+  BigVGAN: A Universal Neural Vocoder with Large-Scale Training: https://arxiv.org/pdf/2206.04658.pdf
+
