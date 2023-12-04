@@ -134,6 +134,8 @@
   VQTTS: High-Fidelity Text-to-Speech Synthesis with Self-Supervised VQ Acoustic Feature: https://arxiv.org/pdf/2204.00768.pdf
   
   \[VALLE\] Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers: https://arxiv.org/pdf/2301.02111.pdf
+  
+  \[Spear-TTS\] Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision: https://arxiv.org/pdf/2302.03540.pdf
 
 * Vocoder
 
@@ -142,4 +144,8 @@
   HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis: https://proceedings.neurips.cc/paper/2020/file/c5d736809766d46260d816d8dbc9eb44-Paper.pdf
   
   BigVGAN: A Universal Neural Vocoder with Large-Scale Training: https://arxiv.org/pdf/2206.04658.pdf
+  
+* Prosody, Emotion and Expressiveness
+
+  TODO
 
